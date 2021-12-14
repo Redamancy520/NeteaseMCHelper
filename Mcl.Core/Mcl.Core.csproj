@@ -29,7 +29,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="WPFLauncher">
-      <HintPath>..\..\..\..\..\..\逆向工程\WPFLauncher\1.6.4\Dumps\WPFLauncher-cleaned.exe</HintPath>
+      <HintPath>..\..\..\..\..\..\逆向工程\WPFLauncher\1.7.5\Dumps\WPFLauncher.exe</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
