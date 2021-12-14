@@ -3,7 +3,7 @@ namespace Microsoft.Event
 	public class BaseInfo : IMethodHook
 	{
 
-		[HookMethod("WPFLauncher.Manager.Log.Util.amt", null, null)]
+		[HookMethod("WPFLauncher.Manager.Log.Util.ams", null, null)]
 		public static string b()
 		{
 			string text = "";
@@ -29,7 +29,7 @@ namespace Microsoft.Event
 			return null;
 		}
 
-		[HookMethod("WPFLauncher.Manager.aka", null, null)]
+		[HookMethod("WPFLauncher.Manager.ajz", null, null)]
 		public static string f()
 		{
 			string text = "";
@@ -53,7 +53,7 @@ namespace Microsoft.Event
 			return null;
 		}
 
-		[HookMethod("WPFLauncher.Manager.aka", null, null)]
+		[HookMethod("WPFLauncher.Manager.ajz", null, null)]
 		public static string d(string jmh)
 		{
 			string text = "";
@@ -84,7 +84,7 @@ namespace Microsoft.Event
 			return null;
 		}
 
-		[HookMethod("WPFLauncher.Manager.aka", null, null)]
+		[HookMethod("WPFLauncher.Manager.ajz", null, null)]
 		public static string g()
 		{
 			string text = "";

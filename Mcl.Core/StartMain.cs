@@ -56,7 +56,7 @@ namespace Eva
 			{
 				inited = true;
 
-				qu.n("Hook Load");
+				qt.n("Hook Load");
 				Control.CheckForIllegalCrossThreadCalls = true;
 				System.Windows.Forms.Application.EnableVisualStyles();
 
