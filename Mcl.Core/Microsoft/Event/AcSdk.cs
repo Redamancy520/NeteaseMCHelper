@@ -15,19 +15,19 @@ namespace Microsoft.Event
 	{
 
 
-	
+
 		//hook r方法 绕过指定目录的清空
-		[HookMethod("WPFLauncher.Util.rx", null, "r_Original")]
+		[HookMethod("WPFLauncher.Util.ry", null, null)]
 		public static bool r(string etw)
 		{
 			if (etw == Tool.getGamePath() + @"\Game\.minecraft\resourcepacks")
 			{
-				StaticClient.send("rx.r", "Delete resourcepacks");
+				StaticClient.send("ry.r", "Delete resourcepacks");
 				return true;
 			}
 			if (etw == Tool.getGamePath() + @"\Game\.minecraft\shaderpacks")
 			{
-				StaticClient.send("rx.r", "Delete shaderpacks");
+				StaticClient.send("ry.r", "Delete shaderpacks");
 				return true;
 			}
 			return r_Original(etw);
@@ -39,15 +39,15 @@ namespace Microsoft.Event
 			return true;
 
 		}
-		
-		[HookMethod("WPFLauncher.Manager.akq", null, null)]
+
+		[HookMethod("WPFLauncher.Manager.akr", null, null)]
 		private static void o()
 		{
 			StaticClient.send("AcSdkInit");
 		}
 
 		//CG播放, true:播放,false:不播放
-		[HookMethod("WPFLauncher.Manager.Configuration.apq", null, null)]
+		[HookMethod("WPFLauncher.Manager.Configuration.apr", null, null)]
 		private static bool get_PlayCG()
 		{
 

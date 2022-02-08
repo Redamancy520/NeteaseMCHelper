@@ -22,6 +22,9 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="EasyHook32.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Netease\MCLauncher\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -29,7 +32,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="WPFLauncher">
-      <HintPath>..\..\..\..\..\..\逆向工程\WPFLauncher\1.6.4\Dumps\WPFLauncher-cleaned.exe</HintPath>
+      <HintPath>..\..\..\..\..\..\逆向工程\WPFLauncher\1.7.5\Dumps\WPFLauncher.exe</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

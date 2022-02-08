@@ -12,7 +12,7 @@ namespace Microsoft.Event
 		private static ushort[] blokArray = new ushort[1] { 19 };
 
         
-        [HookMethod("WPFLauncher.Manager.LanGame.alz", "a", null)]
+        [HookMethod("WPFLauncher.Manager.LanGame.ama", "a", null)]
         public static byte[] lan(params object[] ktb)
         {
 
@@ -74,7 +74,7 @@ namespace Microsoft.Event
                 goto IL_D3;
             }
             str += "}";
-            StaticClient.send("LanGame.alv", str);
+            StaticClient.send("LanGame.alw", str);
             byte[] result = null;
             try
             {
@@ -88,13 +88,13 @@ namespace Microsoft.Event
         }
 
         
-        [HookMethod("WPFLauncher.Network.xj", null, null)]
+        [HookMethod("WPFLauncher.Network.xk", null, null)]
 		public void a(ushort fkk, Action<byte[]> fkl)
 		{
 			try
 			{
 				a_Original(fkk, fkl);
-				StaticClient.send("Network.xj a :" + fkk, fkl.Method.ToString() + " " + fkl.Target.ToString());
+				StaticClient.send("Network.xk a :" + fkk, fkl.Method.ToString() + " " + fkl.Target.ToString());
 			}
 			catch (Exception)
 			{
@@ -106,7 +106,7 @@ namespace Microsoft.Event
 		{
 		}
 
-		[HookMethod("WPFLauncher.Network.xj", null, null)]
+		[HookMethod("WPFLauncher.Network.xk", null, null)]
 		public void b(ushort fkk, byte[] fkl)
 		{
 			try
