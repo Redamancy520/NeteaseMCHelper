@@ -4,6 +4,8 @@
 > 利用[DotNetDetour](https://github.com/bigbaldy1128/DotNetDetour)完成对网易启动器WPFLauncher.exe的HOOK操作
 打包成Mcl.Core.dll后替换原先网易我的世界启动器的DLL文件
 并通过GameInjector.exe配置相关功能
+此辅助软件理论上并不会使游戏封号,只要确保您不使用他来进行一些作弊行为:连点器,外置GC外挂注入等等
+
 
 ## 可实现功能
 - 自定义材质包/光影文件
@@ -17,7 +19,11 @@
 - 导出网易本地游戏存档
 - 识别游戏加载的模组是否会冲突
 - ....
-
+## 食用教程
+1.以管理员身份启动GameInjector.exe
+2.配置相关功能设置
+3.点击 保存 按钮保存配置
+4.点击 "初始化" 按钮
 
 ## 项目地址
 
