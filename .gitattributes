@@ -1,2 +1,2 @@
-*.cs linguist-language=C#
-*.sln linguist-language=C#
+*.cs linguist-language=csharp
+*.sln linguist-language=csharp
