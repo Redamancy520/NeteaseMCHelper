@@ -1,2 +1,2 @@
-*.cs linguist-language=java
+*.cs linguist-language=csharp
 *.sln linguist-language=csharp
