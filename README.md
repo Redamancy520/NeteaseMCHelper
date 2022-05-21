@@ -1,7 +1,7 @@
-# 本项目已暂时停止维护,且目前无法使用(由于学业关系,将于暑假重新维护)
+** 本项目已暂时停止维护,且目前无法使用(由于学业关系,将于暑假重新维护) **
 
 # 欢迎使用NeteaseMCHelper
-**NeteaseMCHe是网易我的世界启动器「辅助工具」(非外挂作弊工具)**
+**NeteaseMCHelper是网易我的世界启动器「辅助工具」(非外挂作弊工具)**
 ## 实现原理
 > 利用[DotNetDetour](https://github.com/bigbaldy1128/DotNetDetour)完成对网易启动器WPFLauncher.exe的HOOK操作
 打包成Mcl.Core.dll后替换原先网易我的世界启动器的DLL文件
